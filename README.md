@@ -80,7 +80,7 @@ _Below is an example of how you can instruct your audience on installing and set
 1. Remind yourself that I don't care enough to test anything so use ChatGPT and figure out how to run and fix it
 2. Clone the repo
    ```sh
-   https://github.com/skylakekung/Youtube-Music-Electron
+   git clone https://github.com/skylakekung/Youtube-Music-Electron
    ```
 3. Install NPM packages
    ```sh
