@@ -43,7 +43,7 @@
   <img src="https://github.com/skylakekung/Youtube-Music-Electron/blob/main/preview1.jpeg" width="45%" style="margin-right: 10px;">
   <img src="https://github.com/skylakekung/Youtube-Music-Electron/blob/main/preview2.jpeg" width="45%">
 </p>
-I love <a herf="https://github.com/pear-devs/pear-desktop">Pear</a> ngl but I want to code my own so I did just that
+I love [Pear](https://github.com/pear-devs/pear-desktop) ngl but I want to code my own so I did just that
 
 Important notes:
 * I don't care enough to learn Javascript Properly, so I just Prompt Gemini and ChatGPT to do it and fix some parameters myself.
