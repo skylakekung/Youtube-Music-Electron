@@ -52,6 +52,7 @@ Important notes:
 * <p>The login icon will appear only once if you want to change your account you gotta reset the app's data (which I also doesn't know how to do :( )</p>
 * there's vibrancy or transparent window or blur effect whatever you call it at this moment the style is reverted that is the main window is transparent while the sidebar is opaque also no I am not goona do liquid glass
 * Included with [ThemeSong for YouTube Music™ (Enhancer)](https://chromewebstore.google.com/detail/themesong-for-youtube-mus/bgfiegdbajagebogifobkhambpljbfmk) YouTube plugin (I am not affiliated with the Author of this Plugin)
+* You can add more Unpacked Google Chrome Extensions by putting the file in the Extensions folder (the structure should look like this: Extension/exName/manifest.json and other files)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
