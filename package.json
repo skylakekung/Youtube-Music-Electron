@@ -1,0 +1,24 @@
+{
+  "name": "ytmusicfork",
+  "productName": "Youtube Music fork",
+  "version": "1.0.0",
+  "main": "main.js",
+  "build": {
+    "appId": "com.3headedskbidi.ytmusic",
+    "mac": {
+      "icon": "icon.icns"
+    }
+  },
+  "scripts": {
+    "run": "electron .",
+    "build": "electron-builder"
+  },
+  "devDependencies": {
+    "electron": "^35.7.5",
+    "electron-builder": "^26.0.12",
+    "electron-packager": "^17.1.2"
+  },
+  "dependencies": {
+    "fastfetch": "^0.0.1"
+  }
+}
