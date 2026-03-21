@@ -58,6 +58,13 @@ This project is inspired by [Pear Desktop](https://github.com/pear-devs/pear-des
 * UI effects (transparency / vibrancy) are experimental and may change.
 * Some features and behaviors may be inconsistent across platforms.
 
+### To do list
+* <s>Fix some quirks with the current build on macOS.</s>
+
+* <s>Add Linux and windows support for the blur effect.</s>
+
+* Resolve corners not being rounded on Linux.
+  
 ### Extensions
 
 * Chrome extensions can be added manually by placing them in the `Extensions/` folder:
