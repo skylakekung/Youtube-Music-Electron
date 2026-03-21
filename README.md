@@ -48,7 +48,7 @@ This project is inspired by [Pear Desktop](https://github.com/pear-devs/pear-des
 
 ### Notes
 
-* Built using Electron and JavaScript, with assistance from AI tools for rapid development and iteration.
+* Built using Electron and JavaScript, with assistance from AI tools(chatGPT, Gemini, and Claude) because I don't know shit how to code JS🤷‍♂️ (Atleast I know what they do.)
 * Tested on macOS, Windows, and Linux (basic functionality confirmed).
 * Contributions and improvements are welcome.
 
