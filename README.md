@@ -1,123 +1,136 @@
-
 <!-- PROJECT LOGO -->
+
 <br />
 <div align="center">
   <a href="https://github.com/skylakekung/Youtube-Music-Electron">
     <img src="https://github.com/skylakekung/Youtube-Music-Electron/blob/main/incs.png" alt="Logo" width="256" height="256">
   </a>
-  <h3 align="center">Youtube Music Electron</h3>
 
-> [!IMPORTANT]
-> ⚠️ Disclaimer
->
-> **No Affiliation**
->
-> This project, and its contributors, are not affiliated with, authorized by, endorsed by, or in any way officially connected with Google LLC, YouTube, or any of their subsidiaries or affiliates. **This is an independent, non-profit, and unofficial extension developed by a team of volunteers with the goal of providing a desktop experience.**
->
-> **Trademarks**
->
-> The names "Google" and "YouTube Music", as well as related names, marks, emblems, and images, are registered trademarks of their respective owners. Any use of these trademarks is for identification and reference purposes only and does not imply any association with the trademark holder. We have no intention of infringing upon these trademarks or causing harm to the trademark holders.
->
-> **Limitation of Liability**
->
-> This application (extension) is provided "AS IS", and you use it at your own risk. In no event shall the developers or contributors be liable for any claim, damages, or other liability, including any legal consequences, arising from, out of, or in connection with the software or the use or other dealings in the software. The responsibility for any and all outcomes of using this software rests entirely with the user.
+  <h3 align="center">YouTube Music Electron</h3>
 
-<p>The text above was copied from Pear github repo in the README.md files I don't care enough to change it</p>
   <p align="center">
-    A lightweight? youtube music client built with electron and JS
-    <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong><s>Explore the docs</s>s> There's no docs I am lazy »</strong></a>
+    A lightweight desktop client for YouTube Music built with Electron.
     <br />
     <br />
-    <a href="https://github.com/othneildrew/Youtube-Music-Electron/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
-    &middot;
-    <a href="https://github.com/othneildrew/Youtube-Music-Electron/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
+    <a href="https://github.com/skylakekung/Youtube-Music-Electron/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
+    ·
+    <a href="https://github.com/skylakekung/Youtube-Music-Electron/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
   </p>
 </div>
 
+---
 
-<!-- ABOUT THE PROJECT -->
+> [!IMPORTANT]
+> ⚠️ **Disclaimer**
+>
+> **No Affiliation**
+> This project is not affiliated with, authorized by, endorsed by, or officially connected with Google LLC or YouTube.
+> It is an independent, unofficial desktop client developed by volunteers.
+>
+> **Trademarks**
+> "Google" and "YouTube Music" are trademarks of their respective owners.
+> They are used for identification purposes only.
+>
+> **Limitation of Liability**
+> This software is provided "AS IS", without warranty of any kind.
+> You use it at your own risk.
+
+---
+
 ## About The Project
 
 <p align="center">
-  <img src="https://github.com/skylakekung/Youtube-Music-Electron/blob/main/preview1.jpeg" width="45%" style="margin-right: 10px;">
+  <img src="https://github.com/skylakekung/Youtube-Music-Electron/blob/main/preview1.jpeg" width="45%">
   <img src="https://github.com/skylakekung/Youtube-Music-Electron/blob/main/preview2.jpeg" width="45%">
 </p>
 
-I love [Pear](https://github.com/pear-devs/pear-desktop) ngl but I want to code my own so I did just that
+This project is inspired by [Pear Desktop](https://github.com/pear-devs/pear-desktop), but built from scratch as a personal implementation of a YouTube Music desktop experience.
 
-Important notes:
-* I don't care enough to learn Javascript Properly, so I just Prompt Gemini and ChatGPT to do it and fix some parameters myself.
-* It's currently(as in 21/03/26) working good on MacOS, Windows, and Linux.
-* If you want feel free to fix issues and improve this project by submitting a pull request :smile:
-* <p>The login icon will appear only once if you want to change your account you gotta reset the app's data (which I also doesn't know how to do :( )</p>
-* there's vibrancy or transparent window or blur effect whatever you call it at this moment the style is reverted that is the main window is transparent while the sidebar is opaque also no I am not goona do liquid glass
-* Not Included with [ThemeSong for YouTube Music™ (Enhancer)](https://chromewebstore.google.com/detail/themesong-for-youtube-mus/bgfiegdbajagebogifobkhambpljbfmk) YouTube plugin (I am not affiliated with the Author of this Plugin) but I recommended using it to get the results like the images above
-* You can add more Unpacked Google Chrome Extensions by putting the file in the Extensions folder (the structure should look like this: Extension/exName/manifest.json and other files)
+### Notes
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+* Built using Electron and JavaScript, with assistance from AI tools for rapid development and iteration.
+* Tested on macOS, Windows, and Linux (basic functionality confirmed).
+* Contributions and improvements are welcome.
 
+### Known Limitations
 
-<!-- GETTING STARTED -->
+* Account switching currently requires clearing application data.
+* UI effects (transparency / vibrancy) are experimental and may change.
+* Some features and behaviors may be inconsistent across platforms.
+
+### Extensions
+
+* Chrome extensions can be added manually by placing them in the `Extensions/` folder:
+
+  ```
+  Extensions/<extension-name>/manifest.json
+  ```
+* Recommended plugin (not included):
+  ThemeSong for YouTube Music™ (Enhancer)
+
+---
+
 ## Getting Started
-
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
-This is copy pasted but I changed the commands so maybe it will work on yout system Idk
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
+* Node.js (recommended latest LTS)
 * npm
-  ```sh
-  npm install npm@latest -g
-  ```
+
+Install npm (if needed):
+
+```sh
+npm install -g npm
+```
+
+---
 
 ### Installation
 
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
+1. Clone the repository:
 
-0. Install NodeJS from their website (Pre-installed in Linux and macOS)
-1. Remind yourself that I don't care enough to test anything so use ChatGPT and figure out how to run and fix it
-2. Clone the repo
    ```sh
    git clone https://github.com/skylakekung/Youtube-Music-Electron
-   cd Youtube-Music-Electron 
+   cd Youtube-Music-Electron
    ```
-3. Install NPM packages
+
+2. Install dependencies:
+
    ```sh
    npm install
    ```
-4. Test the project
+
+3. Test run the application:
+
    ```sh
    npm run run
    ```
-5. Build the thing
+
+4. Build the application:
+
    ```sh
    npm run build
    ```
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+---
 
-
-<!-- CONTRIBUTING -->
 ## Contributing
 
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+Contributions are welcome and appreciated.
 
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
+If you would like to improve this project:
 
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+1. Fork the repository
+2. Create a new branch (`feature/your-feature`)
+3. Commit your changes
+4. Push to your branch
+5. Open a pull request
 
+You can also open an issue for bugs or feature requests.
 
+---
 
-
-<!-- LICENSE -->
 ## License
 
-No License. Go nuts, do whatever you want.
+No license is currently applied.
+Go nuts, do whatever you want.
