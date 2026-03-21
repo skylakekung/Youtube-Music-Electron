@@ -461,12 +461,6 @@ async function createWindow() {
             border-right: 1px solid rgba(255,255,255,0.2);
           }
 
-          ytmusic-player-bar #progress-bar,
-          ytmusic-player-bar .player-bar-background,
-          ytmusic-player-bar .song-info {
-            display: none !important;
-          }
-
           ytmusic-player-page {
             --player-bar-height: 0px !important;
             padding-bottom: 0 !important;
