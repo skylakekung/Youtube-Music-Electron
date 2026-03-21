@@ -48,7 +48,7 @@ I love [Pear](https://github.com/pear-devs/pear-desktop) ngl but I want to code 
 
 Important notes:
 * I don't care enough to learn Javascript Properly, so I just Prompt Gemini and ChatGPT to do it and fix some parameters myself.
-* It's working good on MacOS and I recently updated it to work on windows, it's not working on Linux tho (Atleast on KDE Wayland) 
+* It's currently(as in 21/03/26) working good on MacOS, Windows, and Linux.
 * If you want feel free to fix issues and improve this project by submitting a pull request :smile:
 * <p>The login icon will appear only once if you want to change your account you gotta reset the app's data (which I also doesn't know how to do :( )</p>
 * there's vibrancy or transparent window or blur effect whatever you call it at this moment the style is reverted that is the main window is transparent while the sidebar is opaque also no I am not goona do liquid glass
@@ -77,6 +77,7 @@ This is an example of how to list things you need to use the software and how to
 
 _Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
 
+0. Install NodeJS from their website (Pre-installed in Linux and macOS)
 1. Remind yourself that I don't care enough to test anything so use ChatGPT and figure out how to run and fix it
 2. Clone the repo
    ```sh
