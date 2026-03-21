@@ -48,7 +48,7 @@ I love [Pear](https://github.com/pear-devs/pear-desktop) ngl but I want to code 
 
 Important notes:
 * I don't care enough to learn Javascript Properly, so I just Prompt Gemini and ChatGPT to do it and fix some parameters myself.
-* It's working good on MacOS but I haven't tested for Windows or Linux
+* It's working good on MacOS and I recently updated it to work on windows, it's not working on Linux tho (Atleast on KDE Wayland) 
 * If you want feel free to fix issues and improve this project by submitting a pull request :smile:
 * <p>The login icon will appear only once if you want to change your account you gotta reset the app's data (which I also doesn't know how to do :( )</p>
 * there's vibrancy or transparent window or blur effect whatever you call it at this moment the style is reverted that is the main window is transparent while the sidebar is opaque also no I am not goona do liquid glass
