@@ -19,6 +19,7 @@
     "electron-packager": "^17.1.2"
   },
   "dependencies": {
-    "fastfetch": "^0.0.1"
+    "fastfetch": "^0.0.1",
+    "x11": "^2.3.0"
   }
 }
